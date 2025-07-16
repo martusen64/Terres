@@ -1,0 +1,52 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  cursor: url('/Puntero_Gris.svg') 16 16, auto;
+  background: rgb(206, 205, 205);
+  font-family: 'Satoshi', sans-serif;
+  margin:0;
+  padding:0;
+  height: 100%;
+}
+
+.cursor-negro{
+  cursor: url('/Puntero_Negro.svg') 16 16, pointer
+}
+
+.cursor-blanco{
+  cursor: url('/Puntero_Blanco.svg') 16 16, pointer
+}
+
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+@font-face{
+  font-family: 'Expressa';
+  src: url('./assets/Expressa-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Expressa';
+  src: url('./assets/Expressa-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'ExpressaThin';
+  src: url('./assets/Expressa-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
